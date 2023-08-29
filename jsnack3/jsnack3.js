@@ -16,7 +16,8 @@ Il programma stampa la somma di tutti i numeri inseriti.
 let totalCalculation = 0;
 
 for (let i = 0; i < 10; i++) {
-    let typeNumber = Number(prompt ('scegli un numero'))
-    totalCalculation += typeNumber
+    let typeNumber = Number(prompt ('scegli un numero'));
+    //totalCalculation += typeNumber;
+    totalCalculation = totalCalculation + typeNumber;
   }
 console.log(totalCalculation);
