@@ -21,15 +21,14 @@ for (let i = 0; i < 6; i++) {
 
     if (typeNumber % 2 == 1) {
         oddNumbers.push(Number(typeNumber));
-            
-        
+
     }
-    
-} 
+
+}
 
 console.log(oddNumbers);
 
 if (oddNumbers == 0) {
     alert('enter at least one odd number');
-    
+
 }
