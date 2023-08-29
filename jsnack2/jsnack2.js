@@ -17,4 +17,12 @@ let firstWord = prompt('type your name');
 let secondWord = prompt('type your surname');
 
 // check which is the shortest word
+const firstAmount = firstWord.length;
+console.log(firstAmount);
+const secondAmount = secondWord.length;
+console.log(secondAmount);
+
 //print in console
+if (condition) {
+    
+}
