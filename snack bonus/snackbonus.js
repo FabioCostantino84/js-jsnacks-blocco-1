@@ -15,3 +15,17 @@ se è dispari inseriscilo nell’array.
 */
 
 let oddNumbers = []
+
+for (let i = 0; i < 6; i++) {
+    const typeNumber = Number(prompt('type a number'));
+
+    if (typeNumber % 2 == 0) {
+        oddNumbers.push(i);
+            
+    } /* else {
+        alert('enter at least one odd number')
+    } */
+
+}
+
+console.log(oddNumbers);
