@@ -13,3 +13,5 @@ se è dispari inseriscilo nell’array.
 - .push
 
 */
+
+let oddNumbers = []
