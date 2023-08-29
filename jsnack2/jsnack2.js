@@ -18,11 +18,18 @@ let secondWord = prompt('type your surname');
 
 // check which is the shortest word
 const firstAmount = firstWord.length;
-console.log(firstAmount);
+
 const secondAmount = secondWord.length;
-console.log(secondAmount);
 
 //print in console
-if (condition) {
+if (firstAmount < secondAmount) {
+    console.log(firstAmount, 'parola corta');
+    console.log(secondAmount, 'parola lunga');
     
+} else if (firstAmount > secondAmount) {
+    console.log(secondAmount, 'parola corta');
+    console.log(firstAmount, 'parola lunga');
+  
+} else (firstAmount == secondAmount); {
+    console.log('le parole hanno la stessa lunghezza');
 }
