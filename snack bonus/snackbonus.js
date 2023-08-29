@@ -19,12 +19,10 @@ let oddNumbers = []
 for (let i = 0; i < 6; i++) {
     const typeNumber = Number(prompt('type a number'));
 
-    if (typeNumber % 2 == 0) {
-        oddNumbers.push(i);
+    if (typeNumber % 2 == 1) {
+        oddNumbers.push(Number(typeNumber));
             
-    } /* else {
-        alert('enter at least one odd number')
-    } */
+    }
 
 }
 
