@@ -13,7 +13,7 @@ Il software stampa il maggiore.
 
 */
 
-// enter the first number
+/* // enter the first number
 let firstUserNumber = prompt('type dad age');
 
 // enter the second number
@@ -26,4 +26,30 @@ if (firstUserNumber > secondUserNumber) {
 } else {
     console.log(secondUserNumber, 'your mom is older')
     
+} */
+
+/* 
+
+Da fare con WHILE tutti I prossimi snacks
+Snack 1
+L’utente inserisce due numeri in successione, con due prompt.
+Il software stampa il maggiore.
+*/
+
+// cicle while
+const numbers = []
+let i = 1;
+
+while (i <= 2) {
+    const userNumber = Number(prompt('scrivi un numero'));
+    console.log(userNumber);
+    const pcNumber = Number(prompt('scrivi un numero'));
+    console.log(pcNumber);
+
+    if (userNumber > pcNumber) {
+        console.log('hai vinto');
+        
+    }
 }
+
+
