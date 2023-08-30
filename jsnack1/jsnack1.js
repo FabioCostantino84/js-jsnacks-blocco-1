@@ -38,18 +38,14 @@ Il software stampa il maggiore.
 
 // cicle while
 const numbers = []
-let i = 1;
+let i = 0;
 
-while (i <= 2) {
+while (i < 2) {
     const userNumber = Number(prompt('scrivi un numero'));
     console.log(userNumber);
-    const pcNumber = Number(prompt('scrivi un numero'));
-    console.log(pcNumber);
+    userNumber.push(numbers)
 
-    if (userNumber > pcNumber) {
-        console.log('hai vinto');
-        
-    }
+
 }
 
 
